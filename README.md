@@ -20,7 +20,8 @@ As of [Theo's reference tutorial](https://www.youtube.com/watch?v=d5x0JCZbAJs):
   - [ ] Groq
   - [ ] Mistral
   - [ ] `(Add) => {More models? Azure? AI SDK UI? AI SDK RSC?}`
-- [ ] Open source the project & Submit to hackathon
+- [x] Open source the project
+- [ ] Submit to hackathon
 
 ## What's next? How do I make a [T3] app with this?
 

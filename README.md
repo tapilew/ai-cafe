@@ -1,29 +1,44 @@
-# Create T3 App
+# AI Restaurant
+
+AI Agents for a restaurant!
+
+## TODO
+
+As of [Theo's reference tutorial](https://www.youtube.com/watch?v=d5x0JCZbAJs):
+
+- [ ] Make it deploy (**Vercel**)
+- [ ] Scaffold basic UI with mock data
+- [ ] Actually set up a DB (**Vercel Postgres**)
+- [ ] Add authentication (w/ **Clerk**)
+- [ ] Add _dish_ upload (& admin panel)
+- [ ] Error management (w/ **Sentry**)
+- [ ] Routing/_dish_ page (parallel route)
+- [ ] Delete button (w/ Server Actions)
+- [ ] Analytics (**PostHog**)
+- [ ] RateLimiting (**UpStash**)
+- [ ] **🛆** Use **Vercel AI SDK** to create agents/assistants (w/ **AI SDK Core**)
+  - [ ] Groq
+  - [ ] Mistral
+  - [ ] `(Add) => {More models? Azure? AI SDK UI? AI SDK RSC?}`
+- [ ] Open source the project & Submit to hackathon
+
+## What's next? How do I make a [T3] app with this?
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
-## What's next? How do I make an app with this?
-
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
-
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join the [Discord](https://t3.gg/discord)
 
 - [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
 - [Drizzle](https://orm.drizzle.team)
 - [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
 
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+## Learn More about the [T3 Stack](https://create.t3.gg/)
 
 - [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+- [Tutorials](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available)
+- [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
 
 ## How do I deploy this?
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- [Vercel](https://create.t3.gg/en/deployment/vercel)
+- [Docker](https://create.t3.gg/en/deployment/docker)

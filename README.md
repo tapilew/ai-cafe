@@ -16,7 +16,7 @@ As of [Theo's reference tutorial](https://www.youtube.com/watch?v=d5x0JCZbAJs):
 - [ ] Delete button (w/ Server Actions)
 - [ ] Analytics (**PostHog**)
 - [ ] RateLimiting (**UpStash**)
-- [ ] **🛆** Use **Vercel AI SDK** to create agents/assistants (w/ **AI SDK Core**)
+- [ ] **▲** Use **Vercel AI SDK** to create agents/assistants (w/ **AI SDK Core**)
   - [ ] Groq
   - [ ] Mistral
   - [ ] `(Add) => {More models? Azure? AI SDK UI? AI SDK RSC?}`

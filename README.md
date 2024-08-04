@@ -6,7 +6,7 @@ AI Agents for a restaurant!
 
 As of [Theo's reference tutorial](https://www.youtube.com/watch?v=d5x0JCZbAJs):
 
-- [ ] Make it deploy (**Vercel**)
+- [x] Make it deploy (**Vercel**)
 - [ ] Scaffold basic UI with mock data
 - [ ] Actually set up a DB (**Vercel Postgres**)
 - [ ] Add authentication (w/ **Clerk**)

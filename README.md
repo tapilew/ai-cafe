@@ -8,6 +8,7 @@ As of [Theo's reference tutorial](https://www.youtube.com/watch?v=d5x0JCZbAJs):
 
 - [x] Make it deploy (**Vercel**)
 - [x] Scaffold basic UI with mock data
+- [x] Tidy up build process
 - [ ] Actually set up a DB (**Vercel Postgres**)
 - [ ] Add authentication (w/ **Clerk**)
 - [ ] Add _dish_ upload (& admin panel)

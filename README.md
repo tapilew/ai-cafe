@@ -4,8 +4,6 @@ AI Agents for a restaurant!
 
 ## TODO
 
-As of [Theo's reference tutorial](https://www.youtube.com/watch?v=d5x0JCZbAJs):
-
 - [x] Make it deploy (**Vercel**)
 - [x] Scaffold basic UI with mock data
 - [x] Tidy up build process
@@ -17,14 +15,18 @@ As of [Theo's reference tutorial](https://www.youtube.com/watch?v=d5x0JCZbAJs):
 - [ ] Delete button (w/ Server Actions)
 - [ ] Analytics (**PostHog**)
 - [ ] RateLimiting (**UpStash**)
-- [ ] **▲** Use **Vercel AI SDK** to create agents/assistants (w/ **AI SDK Core**)
+- [ ] **▲** Use **Vercel AI SDK** to create agents/assistants (w/ **AI SDK Core** and **AI SDK UI**)
   - [ ] Groq
   - [ ] Mistral
   - [ ] `(Add) => {More models? Azure? AI SDK UI? AI SDK RSC?}`
-- [x] Open source the project
+- [ ] Use the **Cloudinary** SDK to generate SpoOoOky images
+- [ ] Create the "Spooky mode" (alongside light/dark modes)
+- [ ] Personalize AI assistant when using the spooky mode
 - [ ] Submit to hackathon
 
 ## What's next? How do I make a [T3] app with this?
+
+[Theo's reference tutorial](https://www.youtube.com/watch?v=d5x0JCZbAJs)
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 

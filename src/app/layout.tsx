@@ -4,6 +4,8 @@ import { Inter } from "next/font/google";
 
 import { type Metadata } from "next";
 
+import { Providers } from "~/lib/providers";
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -25,12 +27,16 @@ function TopNav() {
 
 export default function RootLayout({
   children,
-}: Readonly<{ children: React.ReactNode }>) {
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body className={`font-sans ${inter.variable} flex flex-col gap-4`}>
-        <TopNav />
-        {children}
+        <Providers>
+          <TopNav />
+          {children}
+        </Providers>
       </body>
     </html>
   );

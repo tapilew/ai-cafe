@@ -1,6 +1,3 @@
-import Link from "next/link";
-import { NeonDriver } from "node_modules/drizzle-orm/neon-serverless/driver.cjs";
-
 const mockUrls = [
   "https://utfs.io/f/edaad3ff-97a7-4501-8713-92b2d73a7e68-7jhibg.jpg",
   "https://utfs.io/f/acce6c30-2632-41ca-abbf-24ed8969b6c4-47en0y.jpg",

@@ -15,14 +15,17 @@ AI Agents for a restaurant!
 - [ ] Delete button (w/ Server Actions)
 - [ ] Analytics (**PostHog**)
 - [ ] RateLimiting (**UpStash**)
-- [ ] **▲** Use **Vercel AI SDK** to create agents/assistants (w/ **AI SDK Core** and **AI SDK UI**)
+- [ ] **▲** Use Vercel **AI SDK** to create agents/assistants (w/ **AI SDK Core** and **AI SDK UI**)
   - [ ] Groq
   - [ ] Mistral
+  - [ ] OpenAI
+  - [ ] Anthropic
+  - [ ] xAI Grok
   - [ ] `(Add) => {More models? Azure? AI SDK UI? AI SDK RSC?}`
 - [ ] Use the **Cloudinary** SDK to generate SpoOoOky images
 - [ ] Create the "Spooky mode" (alongside light/dark modes)
 - [ ] Personalize AI assistant when using the spooky mode
-- [ ] Submit to hackathon
+- [ ] Add Web3 features with **Wagmi**
 
 ## What's next? How do I make a [T3] app with this?
 

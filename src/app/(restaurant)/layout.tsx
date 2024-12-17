@@ -5,8 +5,6 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { Inter } from "next/font/google";
 
 import { type Metadata } from "next";
-
-import { Providers } from "~/lib/providers";
 import { TopNav } from "./_components/top-nav";
 
 const inter = Inter({
@@ -29,10 +27,8 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={`font-sans ${inter.variable} flex flex-col gap-4`}>
-          <Providers>
-            <TopNav />
-            {children}
-          </Providers>
+          <TopNav />
+          {children}
         </body>
       </html>
     </ClerkProvider>

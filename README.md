@@ -30,7 +30,8 @@ Also using Web3
 - [ ] Use the **Cloudinary** SDK to generate SpoOoOky images
 - [ ] Create the "Spooky mode" (alongside light/dark modes)
 - [ ] Personalize AI assistant when using the spooky mode
-- [ ] Add Web3 features with **Wagmi**
+- [ ] Test Web3 features with **Wagmi**
+- [ ] Design and implement _restaurant reservations system_ with **NFTs** & (**Safe{Core}**'s) **account abstraction**
 
 ## What's next? How do I make a [T3] app with this?
 

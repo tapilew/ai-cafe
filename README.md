@@ -2,12 +2,15 @@
 
 AI Agents for a restaurant!
 
+Also using Web3
+
 ## TODO
 
 - [x] Make it deploy (**Vercel**)
 - [x] Scaffold basic UI with mock data
 - [x] Tidy up build process
-- [ ] Actually set up a DB (**Vercel Postgres**)
+- [x] Actually set up a DB (**Neon Postgres**)
+- [x] Attach DB to UI
 - [ ] Add authentication (w/ **Clerk**)
 - [ ] Add _dish_ upload (& admin panel)
 - [ ] Error management (w/ **Sentry**)

@@ -18,15 +18,16 @@ import {
  */
 export const createTable = pgTableCreator((name) => `ai-restaurant_${name}`);
 
-export const posts = createTable(
-  "post",
+export const dishes = createTable(
+  "dish",
   {
     id: serial("id").primaryKey(),
-    name: varchar("name", { length: 256 }),
-    createdAt: timestamp("created_at", { withTimezone: true })
+    name: varchar("name", { length: 256 }).notNull(),
+    imageUrl: varchar("url", { length: 1024 }).notNull(),
+    createdAt: timestamp("created_at")
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
-    updatedAt: timestamp("updated_at", { withTimezone: true }).$onUpdate(
+    updatedAt: timestamp("updated_at").$onUpdate(
       () => new Date(),
     ),
   },

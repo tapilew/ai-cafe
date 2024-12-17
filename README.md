@@ -11,8 +11,10 @@ Also using Web3
 - [x] Tidy up build process
 - [x] Actually set up a DB (**Neon Postgres**)
 - [x] Attach DB to UI
-- [ ] Add authentication (w/ **Clerk**)
+- [x] Add authentication (w/ **Clerk**)
 - [ ] Add _dish_ upload (& admin panel)
+- [ ] "taint" (server-only)
+- [ ] Use Next/Image component
 - [ ] Error management (w/ **Sentry**)
 - [ ] Routing/_dish_ page (parallel route)
 - [ ] Delete button (w/ Server Actions)

@@ -1,12 +1,12 @@
+import { SignedIn, SignedOut } from "@clerk/nextjs";
 import { db } from "~/server/db";
 
 export default async function HomePage() {
-  const dishes = await db.query.dishes.findMany({
-    orderBy: (model, { desc }) => desc(model.id),
-  });
-
-  return (
-    <main className="">
+  async function Dishes() {
+    const dishes = await db.query.dishes.findMany({
+      orderBy: (model, { desc }) => desc(model.id),
+    });
+    return (
       <div className="flex flex-wrap gap-4">
         {[...dishes, ...dishes, ...dishes, ...dishes].map((dish, key) => (
           <div
@@ -18,7 +18,19 @@ export default async function HomePage() {
           </div>
         ))}
       </div>
-      Hello (AI Restaurant in Progress)
+    );
+  }
+
+  return (
+    <main className="">
+      <SignedOut>
+        <div className="h-full w-full text-center text-2xl">
+          Please sign in above
+        </div>
+      </SignedOut>
+      <SignedIn>
+        <Dishes />
+      </SignedIn>
     </main>
   );
 }

@@ -7,9 +7,10 @@ export default function ReservationsPage() {
       <p>Featuring:</p>
       <ul>
         <li>Safe&#123;Core&#125;&apos;s account abstraction</li>
-        <li>Polygon PoS, zkEVM & AggLayer</li>
+        <li>Arbitrum One</li>
+        <li>Arbitrum Stylus</li>
         <li>Chainlink oracles</li>
-        <li>Privado ID</li>
+        <li>KILT</li>
         <li>Lens Protocol integration</li>
       </ul>
     </main>

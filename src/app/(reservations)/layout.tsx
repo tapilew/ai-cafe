@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Web3 Restaurant Reservations",
+  title: "Web3 Café Reservations",
   description: "Using NFTs and account abstraction for reservations!",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };

@@ -16,10 +16,10 @@ import {
  *
  * @see https://orm.drizzle.team/docs/goodies#multi-project-schema
  */
-export const createTable = pgTableCreator((name) => `ai-restaurant_${name}`);
+export const createTable = pgTableCreator((name) => `ai-cafe_${name}`);
 
-export const dishes = createTable(
-  "dish",
+export const coffees = createTable(
+  "coffee",
   {
     id: serial("id").primaryKey(),
     name: varchar("name", { length: 256 }).notNull(),

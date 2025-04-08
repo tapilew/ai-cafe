@@ -1,6 +1,6 @@
-# AI Restaurant
+# AI Café
 
-AI Agents for a restaurant!
+AI Agents for a Café!
 
 Also using Web3
 
@@ -12,16 +12,18 @@ Also using Web3
 - [x] Actually set up a DB (**Neon Postgres**)
 - [x] Attach DB to UI
 - [x] Add authentication (w/ **Clerk**)
-- [ ] Add _dish_ upload (& admin panel)
+- [ ] Add _coffee_ upload (& admin panel)
 - [ ] "taint" (server-only)
 - [ ] Use Next/Image component
 - [ ] Error management (w/ **Sentry**)
-- [ ] Routing/_dish_ page (parallel route)
+- [ ] Routing/_coffee_ page (parallel route)
 - [ ] Delete button (w/ Server Actions)
 - [ ] Analytics (**PostHog**)
 - [ ] RateLimiting (**UpStash**)
-- [ ] **▲** Use Vercel **AI SDK** to create agents/assistants (w/ **AI SDK Core** and **AI SDK UI**)
+- [ ] **▲** Use Vercel **AI SDK** to create agents/assistants (w/ **AI SDK
+      Core** and **AI SDK UI**)
   - [ ] Groq
+  - [ ] DeepSeek
   - [ ] Mistral
   - [ ] OpenAI
   - [ ] Anthropic
@@ -31,15 +33,19 @@ Also using Web3
 - [ ] Create the "Spooky mode" (alongside light/dark modes)
 - [ ] Personalize AI assistant when using the spooky mode
 - [ ] Test Web3 features with **Wagmi**
-- [ ] Design and implement _restaurant reservations system_ with **NFTs** & (**Safe{Core}**'s) **account abstraction**
+- [ ] Design and implement _café reservations system_ with **NFTs** &
+      (**Safe{Core}**'s) **account abstraction**
 
 ## What's next? How do I make a [T3] app with this?
 
 [Theo's reference tutorial](https://www.youtube.com/watch?v=d5x0JCZbAJs)
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with
+`create-t3-app`.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join the [Discord](https://t3.gg/discord)
+If you are not familiar with the different technologies used in this project,
+please refer to the respective docs. If you still are in the wind, please join
+the [Discord](https://t3.gg/discord)
 
 - [Next.js](https://nextjs.org)
 - [Drizzle](https://orm.drizzle.team)
@@ -49,7 +55,8 @@ If you are not familiar with the different technologies used in this project, pl
 
 - [Documentation](https://create.t3.gg/)
 - [Tutorials](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available)
-- [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+- [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) —
+  your feedback and contributions are welcome!
 
 ## How do I deploy this?
 

@@ -2,7 +2,7 @@ export default function ReservationsPage() {
   return (
     <main>
       <p>
-        This is the restaurant&apos;s reservation system, powered by Web3 tech.
+        This is the Café&apos;s reservation system, powered by Web3 tech.
       </p>
       <p>Featuring:</p>
       <ul>
